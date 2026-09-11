@@ -1,0 +1,18 @@
+'use strict';
+const fs=require('fs'),path=require('path'),vm=require('vm');const root=path.resolve(__dirname,'..');const code=fs.readFileSync(path.join(root,'public','sw.js'),'utf8');
+const tests=[];const add=(n,c,d='')=>tests.push({name:n,ok:!!c,detail:String(d||'')});
+const handlers={};let skipped=false,claimed=false,deleted=[],puts=[],added=[];const stores=new Map();
+function response(ok=true,text='ok'){return{ok,clone(){return response(ok,text)},text:async()=>text}}
+const caches={async open(name){if(!stores.has(name))stores.set(name,new Map());const m=stores.get(name);return{async addAll(a){added.push(...a);for(const x of a)m.set(x,response(true,x))},async put(req,res){puts.push(String(req.url||req));m.set(String(req.url||req),res)}}},async keys(){return ['old-cache','coin-nachimpan-v15-31-29-static-v16']},async delete(k){deleted.push(k);return true},async match(req){const k=String(req.url||req);for(const m of stores.values())if(m.has(k))return m.get(k);for(const m of stores.values())if(m.has('./index.html'))return m.get('./index.html');return undefined}};
+let fetchMode='ok';const context={URL,Promise,console,caches,fetch:async req=>{if(fetchMode==='throw')throw new Error('offline');if(fetchMode==='bad')return response(false,'bad');return response(true,'network')},self:{addEventListener(n,fn){handlers[n]=fn},skipWaiting(){skipped=true},clients:{claim(){claimed=true}}}};vm.createContext(context);vm.runInContext(code,context);
+(async()=>{
+  add('install handler registered',typeof handlers.install==='function');add('activate handler registered',typeof handlers.activate==='function');add('fetch handler registered',typeof handlers.fetch==='function');
+  let p;handlers.install({waitUntil(x){p=x}});await p;add('install precaches assets',added.includes('./index.html')&&added.includes('./user-data-store.js')&&added.includes('./app.js')&&added.includes('./manifest.json'));add('install precaches icons',added.includes('./icons/icon-192.png')&&added.includes('./icons/icon-512.png'));add('skipWaiting called',skipped);
+  handlers.activate({waitUntil(x){p=x}});await p;add('old cache deleted',deleted.includes('old-cache'));add('current cache retained',!deleted.includes('coin-nachimpan-v15-31-29-static-v16'));add('clients claimed',claimed);
+  let responded=false;handlers.fetch({request:{method:'POST',url:'https://app.test/x'},respondWith(){responded=true}});add('non-GET bypass',!responded);
+  responded=false;handlers.fetch({request:{method:'GET',url:'https://app.test/api/candles'},respondWith(){responded=true}});add('API bypass',!responded);
+  fetchMode='ok';let rp;handlers.fetch({request:{method:'GET',url:'https://app.test/styles.css'},respondWith(x){rp=x;responded=true}});let rr=await rp;await new Promise(r=>setTimeout(r,0));add('static GET network response',responded&&rr.ok);add('successful response cached',puts.some(x=>x.includes('styles.css')));
+  const before=puts.length;fetchMode='bad';handlers.fetch({request:{method:'GET',url:'https://app.test/bad.css'},respondWith(x){rp=x}});rr=await rp;await new Promise(r=>setTimeout(r,0));add('non-ok response returned',rr.ok===false);add('non-ok not cached',puts.length===before);
+  fetchMode='throw';handlers.fetch({request:{method:'GET',url:'https://app.test/offline'},respondWith(x){rp=x}});rr=await rp;add('offline fallback exists',!!rr);
+  const pass=tests.filter(x=>x.ok).length,total=tests.length,result={version:'15.31.29',pass,total,failed:tests.filter(x=>!x.ok),tests,generatedAt:new Date().toISOString()};fs.writeFileSync(path.join(root,'docs','MOBILE_ONLY_SW_E2E.json'),JSON.stringify(result,null,2));console.log(`RESULT ${pass}/${total} PASS`);if(pass!==total)process.exit(1);
+})().catch(e=>{console.error(e);process.exit(1)});
