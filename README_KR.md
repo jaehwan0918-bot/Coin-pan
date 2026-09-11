@@ -54,3 +54,4 @@ Cloudflare Cache는 성능 최적화용입니다. 캐시 장애 시에도 Upbit 
 
 ## 사용자 데이터 구조
 로그인은 아직 사용하지 않습니다. 브라우저 저장 접근은 `LocalUserDataStore`로 격리했으며, 향후 계정 기능이 필요하면 현재 offline-first 저장소 위에 Cloud Sync Provider를 추가할 수 있습니다.
+
