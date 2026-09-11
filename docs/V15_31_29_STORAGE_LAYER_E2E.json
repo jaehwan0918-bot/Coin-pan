@@ -1,0 +1,99 @@
+{
+  "version": "15.31.29",
+  "pass": 18,
+  "total": 18,
+  "failed": [],
+  "tests": [
+    {
+      "name": "storage API exported",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "local driver capability",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "native storage available",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "raw roundtrip",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "JSON roundtrip",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "remove works",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "namespace dump filters foreign keys",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "snapshot export scoped",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "snapshot import",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "cross-namespace snapshot rejected",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "memory mirror survives native failure",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "native failure reported",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "app has no direct localStorage access",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "storage module loaded before app",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "storage module precached",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "no login UI added",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "no auth endpoint added",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "storage layer has no network dependency",
+      "ok": true,
+      "detail": ""
+    }
+  ],
+  "generatedAt": "2026-09-10T20:02:39.102Z"
+}

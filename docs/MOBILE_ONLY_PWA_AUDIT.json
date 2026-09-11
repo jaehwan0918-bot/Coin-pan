@@ -1,0 +1,74 @@
+{
+  "version": "15.31.29",
+  "pass": 13,
+  "total": 13,
+  "failed": [],
+  "tests": [
+    {
+      "name": "manifest version",
+      "ok": true,
+      "detail": "15.31.29"
+    },
+    {
+      "name": "standalone display",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "relative start URL",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "id and scope stable",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "theme colors",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "manifest linked",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "mobile viewport",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "apple mobile capable",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "apple touch icon",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "192 icon exact",
+      "ok": true,
+      "detail": "{\"w\":192,\"h\":192}"
+    },
+    {
+      "name": "512 icon exact",
+      "ok": true,
+      "detail": "{\"w\":512,\"h\":512}"
+    },
+    {
+      "name": "SW cache v14",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "SW offline fallback index",
+      "ok": true,
+      "detail": ""
+    }
+  ],
+  "generatedAt": "2026-09-10T20:02:45.621Z"
+}

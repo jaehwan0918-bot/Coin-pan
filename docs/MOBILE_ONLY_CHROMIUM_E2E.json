@@ -1,0 +1,410 @@
+{
+  "version": "15.31.29",
+  "scope": "mobile-only usability Chromium E2E",
+  "pass": 80,
+  "total": 80,
+  "failed": [],
+  "tests": [
+    {
+      "name": "version 15.31.29",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "fresh install onboarding visible",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "onboarding defaults 3 favorites",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "onboarding default 4H",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "onboarding completes",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "home default active",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "4 bottom tabs only",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "status pane removed",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "home management rows removed",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "Forward Learning removed from initial home",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "headline-first home structure",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "reason detail collapsed by default",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "settings contains health and backup",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "home favorites 3 cards",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "home hero decision/confidence/state",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "headline populated from decision context",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "important learning retained in records",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "width 320 no overflow",
+      "ok": true,
+      "detail": "0"
+    },
+    {
+      "name": "width 320 summary fits",
+      "ok": true,
+      "detail": "274/320"
+    },
+    {
+      "name": "width 360 no overflow",
+      "ok": true,
+      "detail": "0"
+    },
+    {
+      "name": "width 360 summary fits",
+      "ok": true,
+      "detail": "314/360"
+    },
+    {
+      "name": "width 375 no overflow",
+      "ok": true,
+      "detail": "0"
+    },
+    {
+      "name": "width 375 summary fits",
+      "ok": true,
+      "detail": "329/375"
+    },
+    {
+      "name": "width 390 no overflow",
+      "ok": true,
+      "detail": "0"
+    },
+    {
+      "name": "width 390 summary fits",
+      "ok": true,
+      "detail": "344/390"
+    },
+    {
+      "name": "width 393 no overflow",
+      "ok": true,
+      "detail": "0"
+    },
+    {
+      "name": "width 393 summary fits",
+      "ok": true,
+      "detail": "347/393"
+    },
+    {
+      "name": "width 412 no overflow",
+      "ok": true,
+      "detail": "0"
+    },
+    {
+      "name": "width 412 summary fits",
+      "ok": true,
+      "detail": "366/412"
+    },
+    {
+      "name": "width 414 no overflow",
+      "ok": true,
+      "detail": "0"
+    },
+    {
+      "name": "width 414 summary fits",
+      "ok": true,
+      "detail": "368/414"
+    },
+    {
+      "name": "width 430 no overflow",
+      "ok": true,
+      "detail": "0"
+    },
+    {
+      "name": "width 430 summary fits",
+      "ok": true,
+      "detail": "376/430"
+    },
+    {
+      "name": "touch targets >=44px",
+      "ok": true,
+      "detail": "[]"
+    },
+    {
+      "name": "summary card opens analysis",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "analysis present",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "entry quality populated",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "scenario populated",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "strategy edge populated",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "scenario planner has 3 cases",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "research benchmark/cost visible",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "regime edge UI populated",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "confidence calibration UI present",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "data integrity visible",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "chase-risk detector stress fixture",
+      "ok": true,
+      "detail": "{\"label\":\"CHASE RISK\",\"score\":79,\"rsi\":90.95894409886506,\"ext\":5.3232370464662395}"
+    },
+    {
+      "name": "data demo explicit",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "decision summary 3 lines",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "DEMO safety gate blocks actionable decision",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "readiness panel present",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "home warning appears on DEMO issue",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "home warning hidden when readiness normal",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "forward sample maturity early",
+      "ok": true,
+      "detail": "{\"total\":0,\"resolved\":0,\"hits\":0,\"rate\":null,\"avgReturn\":null,\"wilson\":{\"low\":0,\"high\":1},\"maturity\":\"EARLY\",\"calibration\":{\"samples\":0,\"status\":\"INSUFFICIENT\",\"score\":0.5,\"monotonic\":true,\"buckets\":{\"LOW\":{\"count\":0,\"hits\":0,\"rate\":null,\"wilson\":{\"low\":0,\"high\":1}},\"MEDIUM\":{\"count\":0,\"hits\":0,\"rate\":null,\"wilson\":{\"low\":0,\"high\":1}},\"HIGH\":{\"count\":0,\"hits\":0,\"rate\":null,\"wilson\":{\"low\":0,\"high\":1}}}}}"
+    },
+    {
+      "name": "temporal stability finite",
+      "ok": true,
+      "detail": "0.4888051405966932"
+    },
+    {
+      "name": "cached data confidence capped",
+      "ok": true,
+      "detail": "{\"level\":\"CAUTION\",\"reliability\":0.62,\"decision\":\"관망\"}"
+    },
+    {
+      "name": "safe snapshot stored/recovered",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "snapshot is reference-only",
+      "ok": true,
+      "detail": "{\"decision\":\"NO TRADE\",\"level\":\"BLOCKED\"}"
+    },
+    {
+      "name": "backup reminder after 10 records",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "easy-language home labels",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "easy-language home values",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "data integrity normal fixture ready",
+      "ok": true,
+      "detail": "{\"level\":\"READY\",\"rows\":200,\"partial\":false,\"score\":100}"
+    },
+    {
+      "name": "duplicate candle blocked by integrity gate",
+      "ok": true,
+      "detail": "{\"level\":\"BLOCKED\",\"duplicates\":1,\"issues\":[\"중복 timestamp 1건\",\"timestamp 역전 1건\"]}"
+    },
+    {
+      "name": "unfinished last candle excluded",
+      "ok": true,
+      "detail": "{\"partial\":true,\"before\":200,\"after\":199,\"level\":\"CAUTION\"}"
+    },
+    {
+      "name": "confidence calibration recognizes monotonic bands",
+      "ok": true,
+      "detail": "{\"samples\":30,\"status\":\"CALIBRATED\",\"score\":0.9,\"monotonic\":true,\"buckets\":{\"LOW\":{\"count\":10,\"hits\":5,\"rate\":0.5,\"wilson\":{\"low\":0.236593090512564,\"high\":0.7634069094874361}},\"MEDIUM\":{\"count\":10,\"hits\":6,\"rate\":0.6,\"wilson\":{\"low\":0.31267376973365824,\"high\":0.8318196702937638}},\"HIGH\":{\"count\":10,\"hits\":8,\"rate\":0.8,\"wilson\":{\"low\":0.49016247153664183,\"high\":0.9433178485456247}}}}"
+    },
+    {
+      "name": "confidence overconfidence detected",
+      "ok": true,
+      "detail": "{\"samples\":24,\"status\":\"OVERCONFIDENT\",\"score\":0.35,\"monotonic\":false,\"buckets\":{\"LOW\":{\"count\":0,\"hits\":0,\"rate\":null,\"wilson\":{\"low\":0,\"high\":1}},\"MEDIUM\":{\"count\":12,\"hits\":8,\"rate\":0.6666666666666666,\"wilson\":{\"low\":0.39062208887279953,\"high\":0.8618799089087867}},\"HIGH\":{\"count\":12,\"hits\":4,\"rate\":0.3333333333333333,\"wilson\":{\"low\":0.13812009109121315,\"high\":0.6093779111272004}}}}"
+    },
+    {
+      "name": "regime edge 5 buckets generated",
+      "ok": true,
+      "detail": "{\"keys\":[\"BULL\",\"BEAR\",\"SIDEWAYS\",\"HIGH_VOL\",\"LOW_VOL\"],\"labels\":[\"NO CLEAR EDGE\",\"POSITIVE EDGE\",\"INSUFFICIENT\",\"DEFENSIVE EDGE\",\"NO CLEAR EDGE\"],\"counts\":[22,63,0,43,42]}"
+    },
+    {
+      "name": "last market/timeframe remembered",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "favorites saved",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "large font applied",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "quick state favorite count",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "health check UI present",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "one-tap health check completes",
+      "ok": true,
+      "detail": "{\"status\":\"CAUTION\",\"ok\":5,\"warn\":3,\"fail\":0,\"total\":8,\"checks\":[{\"name\":\"앱 버전\",\"level\":\"OK\",\"detail\":\"V15.31.29\"},{\"name\":\"모바일 저장소\",\"level\":\"WARN\",\"detail\":\"현재 origin에서는 native localStorage 확인 불가\"},{\"name\":\"PWA 구성\",\"level\":\"WARN\",\"detail\":\"manifest / Service Worker 지원\"},{\"name\":\"데이터 무결성\",\"level\":\"OK\",\"detail\":\"READY · 100\"},{\"name\":\"판단 신뢰도 검증\",\"level\":\"WARN\",\"detail\":\"INSUFFICIENT · n=0\"},{\"name\":\"실전 결과 저장소\",\"level\":\"OK\",\"detail\":\"0개 기록\"},{\"name\":\"백업 상태\",\"level\":\"OK\",\"detail\":\"정상\"},{\"name\":\"자동주문 차단\",\"level\":\"OK\",\"detail\":\"주문 함수 없음\"}]}"
+    },
+    {
+      "name": "health check renders 8 rows",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "home summary updates to 2 favorites",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "backup v2 valid",
+      "ok": true,
+      "detail": "{\"ok\":true,\"schema\":2,\"hasUi\":true,\"favs\":2}"
+    },
+    {
+      "name": "backup status timestamp visible",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "v15.31.17-style schema1 backup accepted",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "existing V26 user migrates without onboarding/data loss",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "update status shows V27 to V28",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "self test all pass",
+      "ok": true,
+      "detail": "57/57"
+    },
+    {
+      "name": "landscape no fatal overflow",
+      "ok": true,
+      "detail": "844/844"
+    }
+  ],
+  "generatedAt": "2026-09-10T20:02:43.952Z"
+}

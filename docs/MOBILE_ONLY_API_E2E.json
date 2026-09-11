@@ -1,0 +1,200 @@
+{
+  "version": "15.31.29",
+  "platform": "cloudflare-workers",
+  "pass": 38,
+  "total": 38,
+  "failed": [],
+  "tests": [
+    {
+      "name": "POST rejected",
+      "ok": true,
+      "detail": "405"
+    },
+    {
+      "name": "invalid market 400",
+      "ok": true,
+      "detail": "400"
+    },
+    {
+      "name": "invalid timeframe 400",
+      "ok": true,
+      "detail": "400"
+    },
+    {
+      "name": "minute 60 success",
+      "ok": true,
+      "detail": "200"
+    },
+    {
+      "name": "count min clamps 60",
+      "ok": true,
+      "detail": "60"
+    },
+    {
+      "name": "fixed HTTPS Upbit host",
+      "ok": true,
+      "detail": "https://api.upbit.com/v1/candles/minutes/60?market=KRW-BTC&count=60"
+    },
+    {
+      "name": "market encoded",
+      "ok": true,
+      "detail": "https://api.upbit.com/v1/candles/minutes/60?market=KRW-BTC&count=60"
+    },
+    {
+      "name": "count 60 upstream",
+      "ok": true,
+      "detail": "https://api.upbit.com/v1/candles/minutes/60?market=KRW-BTC&count=60"
+    },
+    {
+      "name": "response source",
+      "ok": true,
+      "detail": "UPBIT PUBLIC API"
+    },
+    {
+      "name": "response chronological",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "canonical candle open timestamp",
+      "ok": true,
+      "detail": "1699999980000"
+    },
+    {
+      "name": "OHLCV numeric",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "content type json",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "cache-control no-store",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "count max clamps 200",
+      "ok": true,
+      "detail": "200"
+    },
+    {
+      "name": "240 path",
+      "ok": true,
+      "detail": "https://api.upbit.com/v1/candles/minutes/240?market=KRW-ETH&count=200"
+    },
+    {
+      "name": "count 200 upstream",
+      "ok": true,
+      "detail": "https://api.upbit.com/v1/candles/minutes/240?market=KRW-ETH&count=200"
+    },
+    {
+      "name": "day success",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "day path",
+      "ok": true,
+      "detail": "https://api.upbit.com/v1/candles/days?market=KRW-XRP&count=160"
+    },
+    {
+      "name": "day count 160",
+      "ok": true,
+      "detail": "160"
+    },
+    {
+      "name": "Cloudflare cache avoids refetch",
+      "ok": true,
+      "detail": "1"
+    },
+    {
+      "name": "Cloudflare cache source",
+      "ok": true,
+      "detail": "UPBIT CACHE"
+    },
+    {
+      "name": "retry succeeds on third",
+      "ok": true,
+      "detail": "status=200, calls=3"
+    },
+    {
+      "name": "retry same fixed host",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "upstream failure 502",
+      "ok": true,
+      "detail": "502"
+    },
+    {
+      "name": "upstream retry 3 attempts",
+      "ok": true,
+      "detail": "3"
+    },
+    {
+      "name": "error shape",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "health 200",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "health version 15.31.29",
+      "ok": true,
+      "detail": "15.31.29"
+    },
+    {
+      "name": "health Cloudflare platform",
+      "ok": true,
+      "detail": "cloudflare-workers"
+    },
+    {
+      "name": "health no paid/order",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "version endpoint",
+      "ok": true,
+      "detail": "{\"version\":\"15.31.29\",\"release\":\"V15.31.29\",\"mode\":\"personal-local-first\",\"platform\":\"cloudflare-workers\"}"
+    },
+    {
+      "name": "version Cloudflare platform",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "unknown API 404",
+      "ok": true,
+      "detail": "{\"error\":\"not_found\"}"
+    },
+    {
+      "name": "61st request rate limited",
+      "ok": true,
+      "detail": "429"
+    },
+    {
+      "name": "429 response shape",
+      "ok": true,
+      "detail": "{\"error\":\"rate_limited\",\"retryAfterSeconds\":60}"
+    },
+    {
+      "name": "Retry-After header",
+      "ok": true,
+      "detail": "60"
+    },
+    {
+      "name": "API security X-Content-Type-Options",
+      "ok": true,
+      "detail": "nosniff"
+    }
+  ],
+  "generatedAt": "2026-09-10T20:02:45.551Z"
+}

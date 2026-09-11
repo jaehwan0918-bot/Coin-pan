@@ -1,0 +1,100 @@
+{
+  "version": "15.31.29",
+  "scope": "Service Worker Chaos E2E",
+  "pass": 18,
+  "total": 18,
+  "failed": [],
+  "tests": [
+    {
+      "name": "handlers register under chaos harness",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "precache failure rejects install safely",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "failed install does not skipWaiting",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "cache-open failure rejects install safely",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "cache-keys failure rejects activation",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "failed activation does not claim clients",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "cache delete failure rejects activation",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "cache-put failure does not break network response",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "cache-open failure after network does not break response",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "HTTP non-ok response passes through",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "HTTP non-ok not cached",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "offline route falls back to cached app shell",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "offline cached static available",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "network+cache total failure is explicit rejection",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "API bypasses service worker under outage",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "POST bypasses service worker under outage",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "slow static network response succeeds",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "slow successful response cached",
+      "ok": true,
+      "detail": ""
+    }
+  ],
+  "generatedAt": "2026-09-10T20:03:05.643Z"
+}

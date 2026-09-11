@@ -1,0 +1,150 @@
+{
+  "version": "15.31.29",
+  "scope": "cross-module integrated mobile E2E",
+  "pass": 28,
+  "total": 28,
+  "failed": [],
+  "tests": [
+    {
+      "name": "fresh install opens onboarding",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "onboarding defaults are safe",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "onboarding flows into LIVE analysis",
+      "ok": true,
+      "detail": "{\"market\":\"KRW-BTC\",\"tf\":\"240\",\"source\":\"live\",\"safety\":\"CAUTION\",\"summary\":[\"live\",\"live\",\"live\"]}"
+    },
+    {
+      "name": "home summary integrates 3 favorite markets",
+      "ok": true,
+      "detail": "[\"live\",\"live\",\"live\"]"
+    },
+    {
+      "name": "safe snapshot created from LIVE analysis",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "headline and easy labels render after live flow",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "analysis can record Forward Learning when not blocked",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "live refresh resolves matured Forward outcome",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "integrated backup checksum valid",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "backup import restores learning",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "backup import restores UI profile",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "backup import updates backup metadata",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "API outage falls back to same-market safe snapshot",
+      "ok": true,
+      "detail": "{\"source\":\"snapshot\",\"decision\":\"NO TRADE\",\"safety\":\"BLOCKED\",\"market\":\"KRW-BTC\"}"
+    },
+    {
+      "name": "snapshot failover blocks new trade decision",
+      "ok": true,
+      "detail": "{\"source\":\"snapshot\",\"decision\":\"NO TRADE\",\"safety\":\"BLOCKED\",\"market\":\"KRW-BTC\"}"
+    },
+    {
+      "name": "network recovery returns to LIVE",
+      "ok": true,
+      "detail": "{\"source\":\"live\",\"market\":\"KRW-BTC\"}"
+    },
+    {
+      "name": "corrupt API data is not accepted as LIVE",
+      "ok": true,
+      "detail": "{\"source\":\"error\",\"decision\":\"NO TRADE\",\"safety\":\"BLOCKED\",\"dataBadge\":\"확인 필요\"}"
+    },
+    {
+      "name": "corrupt API path cannot leave actionable decision",
+      "ok": true,
+      "detail": "{\"source\":\"error\",\"decision\":\"NO TRADE\",\"safety\":\"BLOCKED\",\"dataBadge\":\"확인 필요\"}"
+    },
+    {
+      "name": "market-switch outage never relabels prior-market analysis",
+      "ok": true,
+      "detail": "{\"btc\":{\"price\":89442907.75108074,\"market\":\"KRW-BTC\"},\"switched\":{\"selected\":\"KRW-XRP\",\"market\":null,\"price\":null,\"source\":\"error\",\"displayPrice\":\"-\",\"decision\":null}}"
+    },
+    {
+      "name": "market-switch outage clears stale analysis state",
+      "ok": true,
+      "detail": "{\"selected\":\"KRW-XRP\",\"market\":null,\"price\":null,\"source\":\"error\",\"displayPrice\":\"-\",\"decision\":null}"
+    },
+    {
+      "name": "market-switch outage clears stale price UI",
+      "ok": true,
+      "detail": "{\"selected\":\"KRW-XRP\",\"market\":null,\"price\":null,\"source\":\"error\",\"displayPrice\":\"-\",\"decision\":null}"
+    },
+    {
+      "name": "market-switch outage clears stale research state",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "timeframe-switch outage never relabels prior-timeframe analysis",
+      "ok": true,
+      "detail": "{\"tfBase\":{\"price\":89442907.75108074,\"tf\":\"240\"},\"tfSwitch\":{\"selected\":\"60\",\"tf\":null,\"price\":null,\"source\":\"error\"}}"
+    },
+    {
+      "name": "timeframe-switch outage clears stale analysis state",
+      "ok": true,
+      "detail": "{\"selected\":\"60\",\"tf\":null,\"price\":null,\"source\":\"error\"}"
+    },
+    {
+      "name": "timeframe-switch outage clears stale price UI",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "health check still executes after integrated failures",
+      "ok": true,
+      "detail": "{\"status\":\"CAUTION\",\"ok\":4,\"warn\":4,\"fail\":0,\"total\":8,\"checks\":[{\"name\":\"앱 버전\",\"level\":\"OK\",\"detail\":\"V15.31.29\"},{\"name\":\"모바일 저장소\",\"level\":\"WARN\",\"detail\":\"현재 origin에서는 native localStorage 확인 불가\"},{\"name\":\"PWA 구성\",\"level\":\"WARN\",\"detail\":\"manifest / Service Worker 지원\"},{\"name\":\"데이터 무결성\",\"level\":\"WARN\",\"detail\":\"분석 후 확인 가능\"},{\"name\":\"판단 신뢰도 검증\",\"level\":\"WARN\",\"detail\":\"INSUFFICIENT · n=1\"},{\"name\":\"실전 결과 저장소\",\"level\":\"OK\",\"detail\":\"1개 기록\"},{\"name\":\"백업 상태\",\"level\":\"OK\",\"detail\":\"정상\"},{\"name\":\"자동주문 차단\",\"level\":\"OK\",\"detail\":\"주문 함수 없음\"}]}"
+    },
+    {
+      "name": "no automatic order capability introduced",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "navigation remains four-tab after integrated flows",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "mobile layout remains within 390px viewport",
+      "ok": true,
+      "detail": "390/390"
+    }
+  ],
+  "generatedAt": "2026-09-10T20:03:10.459Z"
+}

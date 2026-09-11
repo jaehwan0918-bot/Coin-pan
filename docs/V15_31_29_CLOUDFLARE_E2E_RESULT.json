@@ -1,0 +1,100 @@
+{
+  "version": "15.31.29",
+  "scope": "Cloudflare architecture E2E",
+  "pass": 18,
+  "total": 18,
+  "failed": [],
+  "tests": [
+    {
+      "name": "Wrangler main worker",
+      "ok": true,
+      "detail": "src/worker.mjs"
+    },
+    {
+      "name": "Static assets directory",
+      "ok": true,
+      "detail": "./public"
+    },
+    {
+      "name": "Assets binding",
+      "ok": true,
+      "detail": "ASSETS"
+    },
+    {
+      "name": "Only API routes run worker first",
+      "ok": true,
+      "detail": "[\"/api/*\"]"
+    },
+    {
+      "name": "Compatibility date set",
+      "ok": true,
+      "detail": "2026-09-11"
+    },
+    {
+      "name": "static security header Strict-Transport-Security",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "static security header X-Content-Type-Options",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "static security header X-Frame-Options",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "static security header Referrer-Policy",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "static security header Permissions-Policy",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "static security header Content-Security-Policy",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "Worker asset fallback binding works",
+      "ok": true,
+      "detail": "asset:/anything"
+    },
+    {
+      "name": "API handled before asset binding",
+      "ok": true,
+      "detail": "{\"ok\":true,\"service\":\"coin-nachimpan\",\"version\":\"15.31.29\",\"platform\":\"cloudflare-workers\",\"paidApiRequired\":false,\"orderApiEnabled\":false}"
+    },
+    {
+      "name": "unknown API not swallowed by SPA asset fallback",
+      "ok": true,
+      "detail": "404"
+    },
+    {
+      "name": "uses Cloudflare caches.default",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "no Node require in Worker",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "no Vercel API files",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "no paid storage binding",
+      "ok": true,
+      "detail": ""
+    }
+  ],
+  "generatedAt": "2026-09-10T20:03:10.531Z"
+}

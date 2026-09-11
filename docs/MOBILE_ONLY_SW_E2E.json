@@ -1,0 +1,89 @@
+{
+  "version": "15.31.29",
+  "pass": 16,
+  "total": 16,
+  "failed": [],
+  "tests": [
+    {
+      "name": "install handler registered",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "activate handler registered",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "fetch handler registered",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "install precaches assets",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "install precaches icons",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "skipWaiting called",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "old cache deleted",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "current cache retained",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "clients claimed",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "non-GET bypass",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "API bypass",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "static GET network response",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "successful response cached",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "non-ok response returned",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "non-ok not cached",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "offline fallback exists",
+      "ok": true,
+      "detail": ""
+    }
+  ],
+  "generatedAt": "2026-09-10T20:02:45.592Z"
+}

@@ -1,0 +1,510 @@
+{
+  "version": "15.31.29",
+  "platform": "cloudflare-workers",
+  "pass": 100,
+  "total": 100,
+  "failed": [],
+  "tests": [
+    {
+      "name": "exists public/index.html",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "exists public/styles.css",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "exists public/user-data-store.js",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "exists public/app.js",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "exists public/manifest.json",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "exists public/sw.js",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "exists public/_headers",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "exists public/icons/icon-192.png",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "exists public/icons/icon-512.png",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "exists src/worker.mjs",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "exists wrangler.jsonc",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "exists package.json",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "exists package-lock.json",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "runtime version 15.31.29",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "Korean brand visible",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "stable internal namespace after migration",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "dedicated UserDataStore layer",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "app has no direct localStorage",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "offline-first storage capability",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "future sync snapshot seam",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "storage layer loaded before app",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "no login UI introduced",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "Cloudflare Worker main",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "Cloudflare static assets",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "API worker-first only",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "no Vercel config",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "no legacy Vercel api directory",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "Cloudflare Cache API",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "cache is optimization fail-open",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "no paid Cloudflare data binding",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "no order/account endpoint",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "no obvious secret",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "fixed Upbit host",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "canonical candle open time",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "server candle integrity validation",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "static CSP self connect",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "static security header Strict-Transport-Security",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "static security header X-Content-Type-Options",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "static security header X-Frame-Options",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "static security header Referrer-Policy",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "static security header Permissions-Policy",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "static security header Cross-Origin-Opener-Policy",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "static security header Content-Security-Policy",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "API security headers",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "mobile viewport",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "4 bottom tabs",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "status pane removed",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "management in settings",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "home management rows removed",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "conditional home warning",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "headline-first home dashboard",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "Forward Learning hidden from home",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "progressive disclosure reason",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "first-run onboarding",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "favorites profile",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "last selection memory",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "update status UX",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "removed status tab migration",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "backup status UX",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "readiness UX",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "decision safety gate",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "entry quality gate",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "scenario planner",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "strategy edge vs buy hold",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "conservative cost assumption",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "safe snapshot recovery",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "forward maturity gate",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "temporal stability",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "data integrity gate",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "confidence calibration",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "regime edge analysis",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "one tap health check",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "forward records capture confidence",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "backup schema v2",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "old backup compatible",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "font accessibility",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "no background polling",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "44px touch minimum",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "mobile summary touch card",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "legacy v16 migration",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "data-state transparency",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "confidence disclaimer",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "notification default off",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "service worker notification",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "SW cache v16",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "SW precaches storage layer",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "SW API bypass",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "PWA icons",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "package version",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "manifest version",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "Cloudflare deploy scripts",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "easy language home labels",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "technical labels retained in detail",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "easy language mapping functions",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "cross-context outage guard",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "cross-context stale UI reset",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "no runtime dependencies",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "no eval/new Function",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "worker pure web runtime",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "assets directory excludes control code",
+      "ok": true,
+      "detail": ""
+    }
+  ],
+  "generatedAt": "2026-09-10T20:02:39.066Z"
+}

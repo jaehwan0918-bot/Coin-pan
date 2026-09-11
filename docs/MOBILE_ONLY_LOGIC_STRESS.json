@@ -1,0 +1,83 @@
+{
+  "version": "15.31.29",
+  "pass": 8,
+  "total": 8,
+  "tests": [
+    {
+      "name": "OHLCV normalization fuzz 5000",
+      "ok": true,
+      "detail": "0"
+    },
+    {
+      "name": "data integrity stress 1000",
+      "ok": true,
+      "detail": "0"
+    },
+    {
+      "name": "analysis/backtest/final validation stress 500",
+      "ok": true,
+      "detail": "0"
+    },
+    {
+      "name": "decision summary stress 500",
+      "ok": true,
+      "detail": "0"
+    },
+    {
+      "name": "entry/scenario planner stress 500",
+      "ok": true,
+      "detail": "0"
+    },
+    {
+      "name": "strategy edge stress 500",
+      "ok": true,
+      "detail": "0"
+    },
+    {
+      "name": "regime edge stress 500",
+      "ok": true,
+      "detail": "0"
+    },
+    {
+      "name": "confidence calibration stress 200",
+      "ok": true,
+      "detail": "0"
+    }
+  ],
+  "raw": {
+    "normalization": {
+      "total": 5000,
+      "fail": 0
+    },
+    "integrity": {
+      "total": 1000,
+      "fail": 0
+    },
+    "scenario": {
+      "total": 500,
+      "fail": 0
+    },
+    "summary": {
+      "total": 500,
+      "fail": 0
+    },
+    "entry": {
+      "total": 500,
+      "fail": 0
+    },
+    "edge": {
+      "total": 500,
+      "fail": 0
+    },
+    "regime": {
+      "total": 500,
+      "fail": 0
+    },
+    "calibration": {
+      "total": 200,
+      "fail": 0
+    },
+    "details": []
+  },
+  "generatedAt": "2026-09-10T20:02:47.655Z"
+}
